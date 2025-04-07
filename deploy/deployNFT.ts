@@ -21,10 +21,12 @@ export async function deploy(
     }
   }
 
-  const nft = await deployer.deploy({
-    id: "GenesisNFT",
-    contract: "GenesisNFT",
-  });
+  const nft = await deployer
+    .deploy({
+      id: "GenesisNFT",
+      contract: "GenesisNFT",
+    })
+    .then((deployment) => deployment.address);
 
   const deployment = {
     nft: nft,

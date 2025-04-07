@@ -1,0 +1,27 @@
+{
+  "type": "function",
+  "id": "GenesisNFTMinterRole",
+  "batch": "testnetMinter",
+  "batchIndex": 1,
+  "functionName": "grantRole",
+  "functionArgs": [
+    "0xfdf81848136595c31bb5f76217767372bc4bf906663038eb38381131ea27ecba",
+    "0x67d09fFa416CA1711e2cebE1C724C76fa77836df"
+  ],
+  "to": "0x3c6d992a76a76501b5551fF9a6580BBdca5783EF",
+  "value": "0",
+  "data": "0x2f2ff15dfdf81848136595c31bb5f76217767372bc4bf906663038eb38381131ea27ecba00000000000000000000000067d09ffa416ca1711e2cebe1c724c76fa77836df",
+  "gas": "51182",
+  "from": "0x3e166454c7781d3fD4ceaB18055cad87136970Ea",
+  "transactionSettings": {
+    "chainId": 11155111,
+    "nonce": "6",
+    "baseFee": "5165455321",
+    "priorityFee": "10000000"
+  },
+  "source": "/home/plopmenz/git/openmesh/genesis-nft",
+  "submitted": {
+    "transactionHash": "0xc8a31e696cd6613e139e50f23ecc161061769aff68a9aba333efdf98de8049c2",
+    "date": "2025-04-07T08:48:11.301Z"
+  }
+}

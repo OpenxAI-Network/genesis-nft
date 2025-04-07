@@ -1,0 +1,219 @@
+{
+  "type": "deployment",
+  "id": "GenesisNFTMinter",
+  "batch": "testnetMinter",
+  "batchIndex": 0,
+  "deploymentAddress": "0x67d09fFa416CA1711e2cebE1C724C76fa77836df",
+  "constructorArgs": [
+    "0x3c6d992a76a76501b5551fF9a6580BBdca5783EF",
+    "0xC69258C33cCFD5d2F862CAE48D4F869Db59Abc6A",
+    "0xaF7E68bCb2Fc7295492A00177f14F59B92814e70",
+    [
+      {
+        "currentlyMinted": 0,
+        "maxMinted": 2,
+        "tierPrefix": 100000000,
+        "stableCoinsPerNft": "50000000000"
+      },
+      {
+        "currentlyMinted": 0,
+        "maxMinted": 8,
+        "tierPrefix": 200000000,
+        "stableCoinsPerNft": "25000000000"
+      },
+      {
+        "currentlyMinted": 0,
+        "maxMinted": 20,
+        "tierPrefix": 300000000,
+        "stableCoinsPerNft": "10000000000"
+      }
+    ]
+  ],
+  "to": "0x4e59b44847b379578588920ca78fbf26c0b4956c",
+  "value": "0",
+  "data": "0x000000000000000000000000000000000000000000000000004f70656e784149604060c081523461023c576108ac908138038061001b81610240565b9384398201608092838183031261023c5780516001600160a01b0391828216820361023c5760209283820151818116810361023c578683015191821680920361023c57606093606084015160018060401b039485821161023c57019680601f8901121561023c578751978589116101be5761009a888a60051b01610240565b9588878b8152019189839b60071b8201019380851161023c5792908a01925b8484106101d2575050505050885260a05260018060a01b03195f5416175f5551916801000000000000000083116101be576001938454848655808510610197575b5091845f52815f20905f935b85851061013a5788885161063891826102748339518181816101be01526103d2015260a051818181610124015261038f0152f35b86848282935160ff815116908c88549265ffffffff000061ff008785015160081b169284015160101b1692896601000000000000600160701b0391015160301b169360018060701b03191617171717865501930194019391610106565b855f528585845f2092830192015b8281106101b35750506100fa565b5f81550186906101a5565b634e487b7160e01b5f52604160045260245ffd5b8d8482031261023c578c51808f01848111828210176101be578e526101f685610265565b81526102038c8601610265565b8c8201528d85015163ffffffff8116810361023c578e8201528a850151848116810361023c578b8201528252928d0192908a01906100b9565b5f80fd5b6040519190601f01601f191682016001600160401b038111838210176101be57604052565b519060ff8216820361023c5756fe604060808152600480361015610013575f80fd5b5f3560e01c908163039af9eb1461042257816342c2510e1461040157816347ccca02146103be578163992642e51461037b578163ac4da5f514610089575063f7260d3e1461005f575f80fd5b34610085575f366003190112610085575f5490516001600160a01b039091168152602090f35b5f80fd5b823461008557610098366104ce565b915f5b8351811015610115576100ad81610485565b5060ff80915460081c16816100c184610485565b50541690039080821161010257908183926100de6001958961057c565b511691168091116100f1575b500161009b565b6100fb828761057c565b52856100ea565b601184634e487b7160e01b5f525260245ffd5b50919061012182610590565b917f00000000000000000000000000000000000000000000000000000000000000009260018060a01b0392835f541690805195602087016323b872dd60e01b815260249433868a015260449460448a015260648901526064885260a088019767ffffffffffffffff988181108a821117610369578452516020915f919082855af11561035f575f513d61035657508581163b155b61033f57505f947f000000000000000000000000000000000000000000000000000000000000000016955b845186101561033d5760ff96876101f7888861057c565b511661020288610485565b50908154908a8216018a811161032b578a169060ff19161790555b87610228888861057c565b51161561031f5761023887610485565b5063ffffffff80915460101c168961024f8a610485565b5054160181811161030d57818a6102668b8b61057c565b51169116039080821161030d57823b156100855784516340c10f1960e01b8152338c8201529116868201525f81868183865af18015610303576102e2575b505f19886102b2898961057c565b5116018881116102d057886102c7898961057c565b9116905261021d565b8560118b634e487b7160e01b5f52525ffd5b8281116102f1578352896102a4565b8560418b634e487b7160e01b5f52525ffd5b84513d5f823e3d90fd5b8660118c634e487b7160e01b5f52525ffd5b965094600101946101e0565b8760118d634e487b7160e01b5f52525ffd5b005b9051635274afe760e01b8152908516818801528290fd5b600114156101b5565b50513d5f823e3d90fd5b8660418c634e487b7160e01b5f52525ffd5b8234610085575f36600319011261008557517f00000000000000000000000000000000000000000000000000000000000000006001600160a01b03168152602090f35b8234610085575f36600319011261008557517f00000000000000000000000000000000000000000000000000000000000000006001600160a01b03168152602090f35b82346100855760209061041b610416366104ce565b610590565b9051908152f35b9050346100855760203660031901126100855735906001548210156100855767ffffffffffffffff610455608093610485565b505482519260ff8216845260ff8260081c16602085015263ffffffff8260101c169084015260301c166060820152f35b6001548110156104ba5760015f527fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf601905f90565b634e487b7160e01b5f52603260045260245ffd5b6020806003198301126100855767ffffffffffffffff91600435838111610085578160238201121561008557806004013590848211610568578160051b9160405195601f19603f850116870190878210908211176105685760405285526024602086019282010192831161008557602401905b82821061054f575050505090565b813560ff81168103610085578152908301908301610541565b634e487b7160e01b5f52604160045260245ffd5b80518210156104ba5760209160051b010190565b5f9190825b81518410156105fd5760ff6105aa858461057c565b511667ffffffffffffffff6105be86610485565b505460301c16908181029181830414901517156105e95781018091116105e957600190930192610595565b634e487b7160e01b5f52601160045260245ffd5b92505056fea2646970667358221220af031dbbdcfdb62006ec6e48f789cf5fdec8b6847a4dc6d4e718febd72cacc8b64736f6c634300081700330000000000000000000000003c6d992a76a76501b5551ff9a6580bbdca5783ef000000000000000000000000c69258c33ccfd5d2f862cae48d4f869db59abc6a000000000000000000000000af7e68bcb2fc7295492a00177f14f59b92814e7000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000005f5e1000000000000000000000000000000000000000000000000000000000ba43b740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000bebc20000000000000000000000000000000000000000000000000000000005d21dba00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000140000000000000000000000000000000000000000000000000000000011e1a30000000000000000000000000000000000000000000000000000000002540be400",
+  "gas": "530145",
+  "from": "0xaF7E68bCb2Fc7295492A00177f14F59B92814e70",
+  "transactionSettings": {
+    "chainId": 11155111,
+    "nonce": "443",
+    "baseFee": "5165455321",
+    "priorityFee": "10000000"
+  },
+  "salt": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000OpenxAI",
+  "artifact": {
+    "abi": [
+      {
+        "type": "constructor",
+        "inputs": [
+          {
+            "name": "_nft",
+            "type": "address",
+            "internalType": "contract IGenesisNFT"
+          },
+          {
+            "name": "_stableCoin",
+            "type": "address",
+            "internalType": "contract IERC20"
+          },
+          { "name": "_receiver", "type": "address", "internalType": "address" },
+          {
+            "name": "_tiers",
+            "type": "tuple[]",
+            "internalType": "struct GenesisNFTMinter.Tier[]",
+            "components": [
+              {
+                "name": "currentlyMinted",
+                "type": "uint8",
+                "internalType": "uint8"
+              },
+              { "name": "maxMinted", "type": "uint8", "internalType": "uint8" },
+              {
+                "name": "tierPrefix",
+                "type": "uint32",
+                "internalType": "uint32"
+              },
+              {
+                "name": "stableCoinsPerNft",
+                "type": "uint64",
+                "internalType": "uint64"
+              }
+            ]
+          }
+        ],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "type": "function",
+        "name": "getStableCoinAmount",
+        "inputs": [
+          { "name": "amount", "type": "uint8[]", "internalType": "uint8[]" }
+        ],
+        "outputs": [
+          { "name": "total", "type": "uint256", "internalType": "uint256" }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "mint",
+        "inputs": [
+          { "name": "amount", "type": "uint8[]", "internalType": "uint8[]" }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "type": "function",
+        "name": "nft",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "address",
+            "internalType": "contract IGenesisNFT"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "receiver",
+        "inputs": [],
+        "outputs": [
+          { "name": "", "type": "address", "internalType": "address" }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "stableCoin",
+        "inputs": [],
+        "outputs": [
+          { "name": "", "type": "address", "internalType": "contract IERC20" }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "tiers",
+        "inputs": [
+          { "name": "", "type": "uint256", "internalType": "uint256" }
+        ],
+        "outputs": [
+          {
+            "name": "currentlyMinted",
+            "type": "uint8",
+            "internalType": "uint8"
+          },
+          { "name": "maxMinted", "type": "uint8", "internalType": "uint8" },
+          { "name": "tierPrefix", "type": "uint32", "internalType": "uint32" },
+          {
+            "name": "stableCoinsPerNft",
+            "type": "uint64",
+            "internalType": "uint64"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "error",
+        "name": "SafeERC20FailedOperation",
+        "inputs": [
+          { "name": "token", "type": "address", "internalType": "address" }
+        ]
+      }
+    ],
+    "bytecode": "0x604060c081523461023c576108ac908138038061001b81610240565b9384398201608092838183031261023c5780516001600160a01b0391828216820361023c5760209283820151818116810361023c578683015191821680920361023c57606093606084015160018060401b039485821161023c57019680601f8901121561023c578751978589116101be5761009a888a60051b01610240565b9588878b8152019189839b60071b8201019380851161023c5792908a01925b8484106101d2575050505050885260a05260018060a01b03195f5416175f5551916801000000000000000083116101be576001938454848655808510610197575b5091845f52815f20905f935b85851061013a5788885161063891826102748339518181816101be01526103d2015260a051818181610124015261038f0152f35b86848282935160ff815116908c88549265ffffffff000061ff008785015160081b169284015160101b1692896601000000000000600160701b0391015160301b169360018060701b03191617171717865501930194019391610106565b855f528585845f2092830192015b8281106101b35750506100fa565b5f81550186906101a5565b634e487b7160e01b5f52604160045260245ffd5b8d8482031261023c578c51808f01848111828210176101be578e526101f685610265565b81526102038c8601610265565b8c8201528d85015163ffffffff8116810361023c578e8201528a850151848116810361023c578b8201528252928d0192908a01906100b9565b5f80fd5b6040519190601f01601f191682016001600160401b038111838210176101be57604052565b519060ff8216820361023c5756fe604060808152600480361015610013575f80fd5b5f3560e01c908163039af9eb1461042257816342c2510e1461040157816347ccca02146103be578163992642e51461037b578163ac4da5f514610089575063f7260d3e1461005f575f80fd5b34610085575f366003190112610085575f5490516001600160a01b039091168152602090f35b5f80fd5b823461008557610098366104ce565b915f5b8351811015610115576100ad81610485565b5060ff80915460081c16816100c184610485565b50541690039080821161010257908183926100de6001958961057c565b511691168091116100f1575b500161009b565b6100fb828761057c565b52856100ea565b601184634e487b7160e01b5f525260245ffd5b50919061012182610590565b917f00000000000000000000000000000000000000000000000000000000000000009260018060a01b0392835f541690805195602087016323b872dd60e01b815260249433868a015260449460448a015260648901526064885260a088019767ffffffffffffffff988181108a821117610369578452516020915f919082855af11561035f575f513d61035657508581163b155b61033f57505f947f000000000000000000000000000000000000000000000000000000000000000016955b845186101561033d5760ff96876101f7888861057c565b511661020288610485565b50908154908a8216018a811161032b578a169060ff19161790555b87610228888861057c565b51161561031f5761023887610485565b5063ffffffff80915460101c168961024f8a610485565b5054160181811161030d57818a6102668b8b61057c565b51169116039080821161030d57823b156100855784516340c10f1960e01b8152338c8201529116868201525f81868183865af18015610303576102e2575b505f19886102b2898961057c565b5116018881116102d057886102c7898961057c565b9116905261021d565b8560118b634e487b7160e01b5f52525ffd5b8281116102f1578352896102a4565b8560418b634e487b7160e01b5f52525ffd5b84513d5f823e3d90fd5b8660118c634e487b7160e01b5f52525ffd5b965094600101946101e0565b8760118d634e487b7160e01b5f52525ffd5b005b9051635274afe760e01b8152908516818801528290fd5b600114156101b5565b50513d5f823e3d90fd5b8660418c634e487b7160e01b5f52525ffd5b8234610085575f36600319011261008557517f00000000000000000000000000000000000000000000000000000000000000006001600160a01b03168152602090f35b8234610085575f36600319011261008557517f00000000000000000000000000000000000000000000000000000000000000006001600160a01b03168152602090f35b82346100855760209061041b610416366104ce565b610590565b9051908152f35b9050346100855760203660031901126100855735906001548210156100855767ffffffffffffffff610455608093610485565b505482519260ff8216845260ff8260081c16602085015263ffffffff8260101c169084015260301c166060820152f35b6001548110156104ba5760015f527fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf601905f90565b634e487b7160e01b5f52603260045260245ffd5b6020806003198301126100855767ffffffffffffffff91600435838111610085578160238201121561008557806004013590848211610568578160051b9160405195601f19603f850116870190878210908211176105685760405285526024602086019282010192831161008557602401905b82821061054f575050505090565b813560ff81168103610085578152908301908301610541565b634e487b7160e01b5f52604160045260245ffd5b80518210156104ba5760209160051b010190565b5f9190825b81518410156105fd5760ff6105aa858461057c565b511667ffffffffffffffff6105be86610485565b505460301c16908181029181830414901517156105e95781018091116105e957600190930192610595565b634e487b7160e01b5f52601160045260245ffd5b92505056fea2646970667358221220af031dbbdcfdb62006ec6e48f789cf5fdec8b6847a4dc6d4e718febd72cacc8b64736f6c63430008170033",
+    "compiler": { "version": "v0.8.23+commit.f704f362" },
+    "contractName": "src/GenesisNFTMinter.sol:GenesisNFTMinter",
+    "jsonDescription": {
+      "language": "Solidity",
+      "sources": {
+        "lib/openzeppelin-contracts/contracts/interfaces/IERC1363.sol": {
+          "content": "// SPDX-License-Identifier: MIT\n// OpenZeppelin Contracts (last updated v5.1.0) (interfaces/IERC1363.sol)\n\npragma solidity ^0.8.20;\n\nimport {IERC20} from \"./IERC20.sol\";\nimport {IERC165} from \"./IERC165.sol\";\n\n/**\n * @title IERC1363\n * @dev Interface of the ERC-1363 standard as defined in the https://eips.ethereum.org/EIPS/eip-1363[ERC-1363].\n *\n * Defines an extension interface for ERC-20 tokens that supports executing code on a recipient contract\n * after `transfer` or `transferFrom`, or code on a spender contract after `approve`, in a single transaction.\n */\ninterface IERC1363 is IERC20, IERC165 {\n    /*\n     * Note: the ERC-165 identifier for this interface is 0xb0202a11.\n     * 0xb0202a11 ===\n     *   bytes4(keccak256('transferAndCall(address,uint256)')) ^\n     *   bytes4(keccak256('transferAndCall(address,uint256,bytes)')) ^\n     *   bytes4(keccak256('transferFromAndCall(address,address,uint256)')) ^\n     *   bytes4(keccak256('transferFromAndCall(address,address,uint256,bytes)')) ^\n     *   bytes4(keccak256('approveAndCall(address,uint256)')) ^\n     *   bytes4(keccak256('approveAndCall(address,uint256,bytes)'))\n     */\n\n    /**\n     * @dev Moves a `value` amount of tokens from the caller's account to `to`\n     * and then calls {IERC1363Receiver-onTransferReceived} on `to`.\n     * @param to The address which you want to transfer to.\n     * @param value The amount of tokens to be transferred.\n     * @return A boolean value indicating whether the operation succeeded unless throwing.\n     */\n    function transferAndCall(address to, uint256 value) external returns (bool);\n\n    /**\n     * @dev Moves a `value` amount of tokens from the caller's account to `to`\n     * and then calls {IERC1363Receiver-onTransferReceived} on `to`.\n     * @param to The address which you want to transfer to.\n     * @param value The amount of tokens to be transferred.\n     * @param data Additional data with no specified format, sent in call to `to`.\n     * @return A boolean value indicating whether the operation succeeded unless throwing.\n     */\n    function transferAndCall(address to, uint256 value, bytes calldata data) external returns (bool);\n\n    /**\n     * @dev Moves a `value` amount of tokens from `from` to `to` using the allowance mechanism\n     * and then calls {IERC1363Receiver-onTransferReceived} on `to`.\n     * @param from The address which you want to send tokens from.\n     * @param to The address which you want to transfer to.\n     * @param value The amount of tokens to be transferred.\n     * @return A boolean value indicating whether the operation succeeded unless throwing.\n     */\n    function transferFromAndCall(address from, address to, uint256 value) external returns (bool);\n\n    /**\n     * @dev Moves a `value` amount of tokens from `from` to `to` using the allowance mechanism\n     * and then calls {IERC1363Receiver-onTransferReceived} on `to`.\n     * @param from The address which you want to send tokens from.\n     * @param to The address which you want to transfer to.\n     * @param value The amount of tokens to be transferred.\n     * @param data Additional data with no specified format, sent in call to `to`.\n     * @return A boolean value indicating whether the operation succeeded unless throwing.\n     */\n    function transferFromAndCall(address from, address to, uint256 value, bytes calldata data) external returns (bool);\n\n    /**\n     * @dev Sets a `value` amount of tokens as the allowance of `spender` over the\n     * caller's tokens and then calls {IERC1363Spender-onApprovalReceived} on `spender`.\n     * @param spender The address which will spend the funds.\n     * @param value The amount of tokens to be spent.\n     * @return A boolean value indicating whether the operation succeeded unless throwing.\n     */\n    function approveAndCall(address spender, uint256 value) external returns (bool);\n\n    /**\n     * @dev Sets a `value` amount of tokens as the allowance of `spender` over the\n     * caller's tokens and then calls {IERC1363Spender-onApprovalReceived} on `spender`.\n     * @param spender The address which will spend the funds.\n     * @param value The amount of tokens to be spent.\n     * @param data Additional data with no specified format, sent in call to `spender`.\n     * @return A boolean value indicating whether the operation succeeded unless throwing.\n     */\n    function approveAndCall(address spender, uint256 value, bytes calldata data) external returns (bool);\n}\n"
+        },
+        "lib/openzeppelin-contracts/contracts/interfaces/IERC165.sol": {
+          "content": "// SPDX-License-Identifier: MIT\n// OpenZeppelin Contracts (last updated v5.0.0) (interfaces/IERC165.sol)\n\npragma solidity ^0.8.20;\n\nimport {IERC165} from \"../utils/introspection/IERC165.sol\";\n"
+        },
+        "lib/openzeppelin-contracts/contracts/interfaces/IERC20.sol": {
+          "content": "// SPDX-License-Identifier: MIT\n// OpenZeppelin Contracts (last updated v5.0.0) (interfaces/IERC20.sol)\n\npragma solidity ^0.8.20;\n\nimport {IERC20} from \"../token/ERC20/IERC20.sol\";\n"
+        },
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol": {
+          "content": "// SPDX-License-Identifier: MIT\n// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC20/IERC20.sol)\n\npragma solidity ^0.8.20;\n\n/**\n * @dev Interface of the ERC-20 standard as defined in the ERC.\n */\ninterface IERC20 {\n    /**\n     * @dev Emitted when `value` tokens are moved from one account (`from`) to\n     * another (`to`).\n     *\n     * Note that `value` may be zero.\n     */\n    event Transfer(address indexed from, address indexed to, uint256 value);\n\n    /**\n     * @dev Emitted when the allowance of a `spender` for an `owner` is set by\n     * a call to {approve}. `value` is the new allowance.\n     */\n    event Approval(address indexed owner, address indexed spender, uint256 value);\n\n    /**\n     * @dev Returns the value of tokens in existence.\n     */\n    function totalSupply() external view returns (uint256);\n\n    /**\n     * @dev Returns the value of tokens owned by `account`.\n     */\n    function balanceOf(address account) external view returns (uint256);\n\n    /**\n     * @dev Moves a `value` amount of tokens from the caller's account to `to`.\n     *\n     * Returns a boolean value indicating whether the operation succeeded.\n     *\n     * Emits a {Transfer} event.\n     */\n    function transfer(address to, uint256 value) external returns (bool);\n\n    /**\n     * @dev Returns the remaining number of tokens that `spender` will be\n     * allowed to spend on behalf of `owner` through {transferFrom}. This is\n     * zero by default.\n     *\n     * This value changes when {approve} or {transferFrom} are called.\n     */\n    function allowance(address owner, address spender) external view returns (uint256);\n\n    /**\n     * @dev Sets a `value` amount of tokens as the allowance of `spender` over the\n     * caller's tokens.\n     *\n     * Returns a boolean value indicating whether the operation succeeded.\n     *\n     * IMPORTANT: Beware that changing an allowance with this method brings the risk\n     * that someone may use both the old and the new allowance by unfortunate\n     * transaction ordering. One possible solution to mitigate this race\n     * condition is to first reduce the spender's allowance to 0 and set the\n     * desired value afterwards:\n     * https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729\n     *\n     * Emits an {Approval} event.\n     */\n    function approve(address spender, uint256 value) external returns (bool);\n\n    /**\n     * @dev Moves a `value` amount of tokens from `from` to `to` using the\n     * allowance mechanism. `value` is then deducted from the caller's\n     * allowance.\n     *\n     * Returns a boolean value indicating whether the operation succeeded.\n     *\n     * Emits a {Transfer} event.\n     */\n    function transferFrom(address from, address to, uint256 value) external returns (bool);\n}\n"
+        },
+        "lib/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol": {
+          "content": "// SPDX-License-Identifier: MIT\n// OpenZeppelin Contracts (last updated v5.2.0) (token/ERC20/utils/SafeERC20.sol)\n\npragma solidity ^0.8.20;\n\nimport {IERC20} from \"../IERC20.sol\";\nimport {IERC1363} from \"../../../interfaces/IERC1363.sol\";\n\n/**\n * @title SafeERC20\n * @dev Wrappers around ERC-20 operations that throw on failure (when the token\n * contract returns false). Tokens that return no value (and instead revert or\n * throw on failure) are also supported, non-reverting calls are assumed to be\n * successful.\n * To use this library you can add a `using SafeERC20 for IERC20;` statement to your contract,\n * which allows you to call the safe operations as `token.safeTransfer(...)`, etc.\n */\nlibrary SafeERC20 {\n    /**\n     * @dev An operation with an ERC-20 token failed.\n     */\n    error SafeERC20FailedOperation(address token);\n\n    /**\n     * @dev Indicates a failed `decreaseAllowance` request.\n     */\n    error SafeERC20FailedDecreaseAllowance(address spender, uint256 currentAllowance, uint256 requestedDecrease);\n\n    /**\n     * @dev Transfer `value` amount of `token` from the calling contract to `to`. If `token` returns no value,\n     * non-reverting calls are assumed to be successful.\n     */\n    function safeTransfer(IERC20 token, address to, uint256 value) internal {\n        _callOptionalReturn(token, abi.encodeCall(token.transfer, (to, value)));\n    }\n\n    /**\n     * @dev Transfer `value` amount of `token` from `from` to `to`, spending the approval given by `from` to the\n     * calling contract. If `token` returns no value, non-reverting calls are assumed to be successful.\n     */\n    function safeTransferFrom(IERC20 token, address from, address to, uint256 value) internal {\n        _callOptionalReturn(token, abi.encodeCall(token.transferFrom, (from, to, value)));\n    }\n\n    /**\n     * @dev Increase the calling contract's allowance toward `spender` by `value`. If `token` returns no value,\n     * non-reverting calls are assumed to be successful.\n     *\n     * IMPORTANT: If the token implements ERC-7674 (ERC-20 with temporary allowance), and if the \"client\"\n     * smart contract uses ERC-7674 to set temporary allowances, then the \"client\" smart contract should avoid using\n     * this function. Performing a {safeIncreaseAllowance} or {safeDecreaseAllowance} operation on a token contract\n     * that has a non-zero temporary allowance (for that particular owner-spender) will result in unexpected behavior.\n     */\n    function safeIncreaseAllowance(IERC20 token, address spender, uint256 value) internal {\n        uint256 oldAllowance = token.allowance(address(this), spender);\n        forceApprove(token, spender, oldAllowance + value);\n    }\n\n    /**\n     * @dev Decrease the calling contract's allowance toward `spender` by `requestedDecrease`. If `token` returns no\n     * value, non-reverting calls are assumed to be successful.\n     *\n     * IMPORTANT: If the token implements ERC-7674 (ERC-20 with temporary allowance), and if the \"client\"\n     * smart contract uses ERC-7674 to set temporary allowances, then the \"client\" smart contract should avoid using\n     * this function. Performing a {safeIncreaseAllowance} or {safeDecreaseAllowance} operation on a token contract\n     * that has a non-zero temporary allowance (for that particular owner-spender) will result in unexpected behavior.\n     */\n    function safeDecreaseAllowance(IERC20 token, address spender, uint256 requestedDecrease) internal {\n        unchecked {\n            uint256 currentAllowance = token.allowance(address(this), spender);\n            if (currentAllowance < requestedDecrease) {\n                revert SafeERC20FailedDecreaseAllowance(spender, currentAllowance, requestedDecrease);\n            }\n            forceApprove(token, spender, currentAllowance - requestedDecrease);\n        }\n    }\n\n    /**\n     * @dev Set the calling contract's allowance toward `spender` to `value`. If `token` returns no value,\n     * non-reverting calls are assumed to be successful. Meant to be used with tokens that require the approval\n     * to be set to zero before setting it to a non-zero value, such as USDT.\n     *\n     * NOTE: If the token implements ERC-7674, this function will not modify any temporary allowance. This function\n     * only sets the \"standard\" allowance. Any temporary allowance will remain active, in addition to the value being\n     * set here.\n     */\n    function forceApprove(IERC20 token, address spender, uint256 value) internal {\n        bytes memory approvalCall = abi.encodeCall(token.approve, (spender, value));\n\n        if (!_callOptionalReturnBool(token, approvalCall)) {\n            _callOptionalReturn(token, abi.encodeCall(token.approve, (spender, 0)));\n            _callOptionalReturn(token, approvalCall);\n        }\n    }\n\n    /**\n     * @dev Performs an {ERC1363} transferAndCall, with a fallback to the simple {ERC20} transfer if the target has no\n     * code. This can be used to implement an {ERC721}-like safe transfer that rely on {ERC1363} checks when\n     * targeting contracts.\n     *\n     * Reverts if the returned value is other than `true`.\n     */\n    function transferAndCallRelaxed(IERC1363 token, address to, uint256 value, bytes memory data) internal {\n        if (to.code.length == 0) {\n            safeTransfer(token, to, value);\n        } else if (!token.transferAndCall(to, value, data)) {\n            revert SafeERC20FailedOperation(address(token));\n        }\n    }\n\n    /**\n     * @dev Performs an {ERC1363} transferFromAndCall, with a fallback to the simple {ERC20} transferFrom if the target\n     * has no code. This can be used to implement an {ERC721}-like safe transfer that rely on {ERC1363} checks when\n     * targeting contracts.\n     *\n     * Reverts if the returned value is other than `true`.\n     */\n    function transferFromAndCallRelaxed(\n        IERC1363 token,\n        address from,\n        address to,\n        uint256 value,\n        bytes memory data\n    ) internal {\n        if (to.code.length == 0) {\n            safeTransferFrom(token, from, to, value);\n        } else if (!token.transferFromAndCall(from, to, value, data)) {\n            revert SafeERC20FailedOperation(address(token));\n        }\n    }\n\n    /**\n     * @dev Performs an {ERC1363} approveAndCall, with a fallback to the simple {ERC20} approve if the target has no\n     * code. This can be used to implement an {ERC721}-like safe transfer that rely on {ERC1363} checks when\n     * targeting contracts.\n     *\n     * NOTE: When the recipient address (`to`) has no code (i.e. is an EOA), this function behaves as {forceApprove}.\n     * Opposedly, when the recipient address (`to`) has code, this function only attempts to call {ERC1363-approveAndCall}\n     * once without retrying, and relies on the returned value to be true.\n     *\n     * Reverts if the returned value is other than `true`.\n     */\n    function approveAndCallRelaxed(IERC1363 token, address to, uint256 value, bytes memory data) internal {\n        if (to.code.length == 0) {\n            forceApprove(token, to, value);\n        } else if (!token.approveAndCall(to, value, data)) {\n            revert SafeERC20FailedOperation(address(token));\n        }\n    }\n\n    /**\n     * @dev Imitates a Solidity high-level call (i.e. a regular function call to a contract), relaxing the requirement\n     * on the return value: the return value is optional (but if data is returned, it must not be false).\n     * @param token The token targeted by the call.\n     * @param data The call data (encoded using abi.encode or one of its variants).\n     *\n     * This is a variant of {_callOptionalReturnBool} that reverts if call fails to meet the requirements.\n     */\n    function _callOptionalReturn(IERC20 token, bytes memory data) private {\n        uint256 returnSize;\n        uint256 returnValue;\n        assembly (\"memory-safe\") {\n            let success := call(gas(), token, 0, add(data, 0x20), mload(data), 0, 0x20)\n            // bubble errors\n            if iszero(success) {\n                let ptr := mload(0x40)\n                returndatacopy(ptr, 0, returndatasize())\n                revert(ptr, returndatasize())\n            }\n            returnSize := returndatasize()\n            returnValue := mload(0)\n        }\n\n        if (returnSize == 0 ? address(token).code.length == 0 : returnValue != 1) {\n            revert SafeERC20FailedOperation(address(token));\n        }\n    }\n\n    /**\n     * @dev Imitates a Solidity high-level call (i.e. a regular function call to a contract), relaxing the requirement\n     * on the return value: the return value is optional (but if data is returned, it must not be false).\n     * @param token The token targeted by the call.\n     * @param data The call data (encoded using abi.encode or one of its variants).\n     *\n     * This is a variant of {_callOptionalReturn} that silently catches all reverts and returns a bool instead.\n     */\n    function _callOptionalReturnBool(IERC20 token, bytes memory data) private returns (bool) {\n        bool success;\n        uint256 returnSize;\n        uint256 returnValue;\n        assembly (\"memory-safe\") {\n            success := call(gas(), token, 0, add(data, 0x20), mload(data), 0, 0x20)\n            returnSize := returndatasize()\n            returnValue := mload(0)\n        }\n        return success && (returnSize == 0 ? address(token).code.length > 0 : returnValue == 1);\n    }\n}\n"
+        },
+        "lib/openzeppelin-contracts/contracts/utils/introspection/IERC165.sol": {
+          "content": "// SPDX-License-Identifier: MIT\n// OpenZeppelin Contracts (last updated v5.1.0) (utils/introspection/IERC165.sol)\n\npragma solidity ^0.8.20;\n\n/**\n * @dev Interface of the ERC-165 standard, as defined in the\n * https://eips.ethereum.org/EIPS/eip-165[ERC].\n *\n * Implementers can declare support of contract interfaces, which can then be\n * queried by others ({ERC165Checker}).\n *\n * For an implementation, see {ERC165}.\n */\ninterface IERC165 {\n    /**\n     * @dev Returns true if this contract implements the interface defined by\n     * `interfaceId`. See the corresponding\n     * https://eips.ethereum.org/EIPS/eip-165#how-interfaces-are-identified[ERC section]\n     * to learn more about how these ids are created.\n     *\n     * This function call must use less than 30 000 gas.\n     */\n    function supportsInterface(bytes4 interfaceId) external view returns (bool);\n}\n"
+        },
+        "src/GenesisNFTMinter.sol": {
+          "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\nimport {IGenesisNFT} from \"./IGenesisNFT.sol\";\nimport {IERC20, SafeERC20} from \"../lib/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol\";\n\ncontract GenesisNFTMinter {\n  IGenesisNFT public immutable nft;\n  IERC20 public immutable stableCoin;\n  address public receiver;\n\n  struct Tier {\n    uint8 currentlyMinted;\n    uint8 maxMinted;\n    uint32 tierPrefix;\n    uint64 stableCoinsPerNft;\n  }\n\n  Tier[] public tiers;\n\n  constructor(\n    IGenesisNFT _nft,\n    IERC20 _stableCoin,\n    address _receiver,\n    Tier[] memory _tiers\n  ) {\n    nft = _nft;\n    stableCoin = _stableCoin;\n    receiver = _receiver;\n    tiers = _tiers;\n  }\n\n  function getStableCoinAmount(\n    uint8[] memory amount\n  ) public view returns (uint256 total) {\n    for (uint256 i; i < amount.length; i++) {\n      total += amount[i] * uint256(tiers[i].stableCoinsPerNft);\n    }\n  }\n\n  function mint(uint8[] memory amount) external {\n    _maxNftsLeft(amount);\n    uint256 stableCoinAmount = getStableCoinAmount(amount);\n\n    SafeERC20.safeTransferFrom(\n      stableCoin,\n      msg.sender,\n      receiver,\n      stableCoinAmount\n    );\n    for (uint256 i; i < amount.length; i++) {\n      tiers[i].currentlyMinted += amount[i];\n      while (amount[i] != 0) {\n        nft.mint(\n          msg.sender,\n          tiers[i].tierPrefix + tiers[i].currentlyMinted - amount[i]\n        );\n        amount[i] -= 1;\n      }\n    }\n  }\n\n  function _maxNftsLeft(uint8[] memory amount) internal view {\n    for (uint256 i; i < amount.length; i++) {\n      uint8 leftToMint = tiers[i].maxMinted - tiers[i].currentlyMinted;\n      if (amount[i] > leftToMint) {\n        amount[i] = leftToMint;\n      }\n    }\n  }\n}\n"
+        },
+        "src/IGenesisNFT.sol": {
+          "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ninterface IGenesisNFT {\n  event NFTMinted(address indexed by, uint256 indexed id);\n\n  /// @notice Mints a token to an address.\n  /// @param to The address receiving the token.\n  /// @param tokenId The id of the token to be minted.\n  /// @dev This should be behind a permission/restriction.\n  function mint(address to, uint256 tokenId) external;\n}\n"
+        }
+      },
+      "settings": {
+        "remappings": [
+          "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+          "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+          "forge-std/=lib/forge-std/src/",
+          "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+          "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+        ],
+        "optimizer": { "enabled": true, "runs": 200 },
+        "evmVersion": "shanghai",
+        "viaIR": true
+      },
+      "metadata": { "useLiteralContent": true }
+    },
+    "license": "MIT"
+  },
+  "source": "/home/plopmenz/git/openmesh/genesis-nft",
+  "submitted": {
+    "transactionHash": "0x773ea861e155e2e0fa60fcbc6ae22036fe4d0f6329aee583f89ae0fb36e08b8b",
+    "date": "2025-04-07T08:45:21.628Z"
+  }
+}

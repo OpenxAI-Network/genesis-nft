@@ -1,3 +1,4 @@
+import { GenesisNFTContract } from "../export/GenesisNFT";
 import { Address, Deployer } from "../web3webdeploy/types";
 
 export interface DeploymentSettings {
@@ -21,13 +22,44 @@ export async function deploy(
     }
   }
 
-  const nft = "0x";
-  const stableCoin = "0x";
-  const receiver = "0x";
-  const minter = await deployer.deploy({
-    id: "GenesisNFTMinter",
-    contract: "GenesisNFTMinter",
-    args: [nft, stableCoin, receiver],
+  const nft = GenesisNFTContract.address;
+  const stableCoin = "0xC69258C33cCFD5d2F862CAE48D4F869Db59Abc6A";
+  const receiver = "0xaF7E68bCb2Fc7295492A00177f14F59B92814e70";
+  const tiers = [
+    {
+      currentlyMinted: 0,
+      maxMinted: 2,
+      tierPrefix: 100_000_000,
+      stableCoinsPerNft: deployer.viem.parseUnits("50000", 6),
+    },
+    {
+      currentlyMinted: 0,
+      maxMinted: 8,
+      tierPrefix: 200_000_000,
+      stableCoinsPerNft: deployer.viem.parseUnits("25000", 6),
+    },
+    {
+      currentlyMinted: 0,
+      maxMinted: 20,
+      tierPrefix: 300_000_000,
+      stableCoinsPerNft: deployer.viem.parseUnits("10000", 6),
+    },
+  ];
+  const minter = await deployer
+    .deploy({
+      id: "GenesisNFTMinter",
+      contract: "GenesisNFTMinter",
+      args: [nft, stableCoin, receiver, tiers],
+    })
+    .then((deployment) => deployment.address);
+
+  await deployer.execute({
+    id: "GenesisNFTMinterRole",
+    abi: [...GenesisNFTContract.abi],
+    to: GenesisNFTContract.address,
+    function: "grantRole",
+    args: [deployer.viem.keccak256(deployer.viem.toBytes("MINT")), minter],
+    from: "0x3e166454c7781d3fD4ceaB18055cad87136970Ea",
   });
 
   const deployment = {
