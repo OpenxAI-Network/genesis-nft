@@ -23,8 +23,14 @@ export async function deploy(
   }
 
   const nft = GenesisNFTContract.address;
-  const stableCoin = "0xC69258C33cCFD5d2F862CAE48D4F869Db59Abc6A";
-  const receiver = "0xaF7E68bCb2Fc7295492A00177f14F59B92814e70";
+  const stableCoin =
+    deployer.settings.defaultChainId === 1
+      ? "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+      : "0xC69258C33cCFD5d2F862CAE48D4F869Db59Abc6A";
+  const receiver =
+    deployer.settings.defaultChainId === 1
+      ? "0x1807f6f41c8f7E886E3D325F5fb1F496446D4bCc"
+      : "0xaF7E68bCb2Fc7295492A00177f14F59B92814e70";
   const tiers = [
     {
       currentlyMinted: 0,
